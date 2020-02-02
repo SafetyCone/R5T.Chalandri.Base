@@ -8,6 +8,7 @@ namespace R5T.Chalandri
         string GetBasicTextFilePath();
 
         string GetNewVisualStudio2017SolutionFilePath();
+        string GetNewVisualStudio2019SolutionFilePath();
         string GetExampleVisualStudioSolutionFilePath();
     }
 }

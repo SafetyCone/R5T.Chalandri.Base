@@ -1,12 +1,15 @@
 ﻿using System;
 
+using R5T.T0064;
+
 
 namespace R5T.Chalandri
 {
     /// <summary>
     /// Provides the file paths of individual testing data files.
     /// </summary>
-    public interface ITestingDataDirectoryContentPathsProvider
+    [ServiceDefinitionMarker]
+    public interface ITestingDataDirectoryContentPathsProvider : IServiceDefinition
     {
         string GetBasicTextFilePath();
 
